@@ -1,4 +1,5 @@
-### Hi there 👋
+### Hi there, This is Shivam Omer👋
+### I'm Pursuing B.tech in Computer Science & Engineering from PSIT Kanpur.
 
 <!--
 **shane-Coder/shane-Coder** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
