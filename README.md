@@ -1,4 +1,5 @@
-### Hi there, This is Shivam Omer👋
+### Hi there, I am Shivam Omer👋
+### I love to learn new things and ideas
 ### I'm Pursuing B.tech in Computer Science & Engineering from PSIT Kanpur.
 
 <!--
@@ -6,12 +7,12 @@
 
 Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
+- 🔭 I’m currently working on my projects
+- 🌱 I’m currently learning django
+- 👯 I’m looking to collaborate on new technology
+- 🤔 I’m looking for help with smart contract
+- 💬 Ask me about competitive programming, web-dev
 - 📫 How to reach me: ... https://www.linkedin.com/in/programmer-shivam/
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+- 😄 Pronouns: he/him
+- ⚡ Fun fact: daily streak is only for practice and making habit
 -->
