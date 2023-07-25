@@ -1,5 +1,5 @@
 ### I love to learn and explore new things and ideas
-### I am a competitive programmer who loves to code in cpp most of the time, but also known as c, python, and Java. I also do some development in front-end I use HTML, CSS, and JavaScript with the framework React and backend I use Django and Node.
+### I am a competitive programmer who loves to code in cpp most of the time, also known as c, python, and Java. I also do some development in front-end I use HTML, CSS, and JavaScript with the framework React and for the backend I use Django and Node.
 
 - 🔭 I’m currently working on my projects
 - 🌱 I’m currently learning Django
