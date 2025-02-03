@@ -44,3 +44,6 @@ I occasionally delve into frontend development, working with HTML, CSS, and Java
 ![Shivam's GitHub stats](https://github-readme-stats.vercel.app/api?username=shane-Coder&show_icons=true&theme=gruvbox)
 
 <!-- ![GitHub Streak](https://streak-stats.demolab.com?user=shane-Coder&theme=gruvbox&border_radius=4.5) -->
+
+
+![snake gif](https://github.com/shane-Coder/shane-Coder/blob/output/github-snake-dark.svg)
