@@ -1,4 +1,5 @@
 # 🏄‍♂️ Shivam Omer
+<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=shane-Coder.visitor-badge&left_text=My%20Page%20Visitors" />
 
 **`(Developer/Learner/Doer)`**
 
