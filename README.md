@@ -7,6 +7,8 @@ I am a passionate developer who loves learning and exploring new technologies. P
 Beyond backend development, I am also a competitive programmer. I primarily code in C++, while also being proficient in C, Python, and Java.
 I occasionally delve into frontend development, working with HTML, CSS, and JavaScript, and leveraging React for dynamic user interfaces. For backend services, I primarily use Django and Node.js.
 
+🔗 [Portfolio](https://shivam-portfolio-gold-omega.vercel.app) | [LinkedIn](https://linkedin.com/in/programmer-shivam)
+
    <p align="left">
       <a href="https://github.com/shane-Coder?tab=followers">
          <img alt="followers" title="Follow me on Github" src="https://custom-icon-badges.demolab.com/github/followers/shane-Coder?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/></a>
