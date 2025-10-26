@@ -65,3 +65,8 @@ I am also a passionate problem-solver, leveraging my competitive programming bac
 
 
 ![snake gif](https://github.com/shane-Coder/shane-Coder/blob/output/github-snake-dark.svg)
+
+---
+
+[![An image of @shivan's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/shivan)](https://holopin.io/@shivan)
+
