@@ -16,7 +16,9 @@ application code and infrastructure: designing the API, then owning the containe
 and the deployment that runs it.
 
 Recent focus: **FastAPI + Celery/Redis + Postgres services deployed on Fly.io/AWS**, with
-Prometheus-compatible metrics wired in rather than bolted on afterwards.
+Prometheus-compatible metrics and a real test suite wired in rather than bolted on afterwards.
+Lately I've been shipping full products end to end — most recently **NyotaNow**, a Hindi/English
+invitation app built and launched in a weekend.
 
 📌 **Open to Backend / Platform Engineer roles (remote or India).** Reach me on
 [LinkedIn](https://linkedin.com/in/programmer-shivam) or by [email](mailto:shivamrajomar@gmail.com).
@@ -27,7 +29,8 @@ Prometheus-compatible metrics wired in rather than bolted on afterwards.
 
 | Project | What it does | Stack | Links |
 | --- | --- | --- | --- |
-| **PulseCheck** | Dead-man's-switch monitoring for cron jobs and background tasks — your job pings a URL when it finishes; if the ping doesn't arrive inside its window, you get an email. Watches for the *absence* of a signal, which Prometheus/UptimeRobot don't cover. | FastAPI · Postgres · Celery · Redis · Docker · Fly.io | [Code](https://github.com/shane-Coder/PulseCheck) · [Live](https://pulsecheck-shivam.fly.dev) |
+| **NyotaNow** | An invitation should be a link, not a JPG. Hosts fill in a few details and get one page that counts down to the event, opens Maps, adds to calendar and collects RSVPs in one tap — Hindi and English both first-class, with proper Devanagari typography. | Next.js 16 · React 19 · TypeScript · Postgres · Drizzle · Tailwind | [Code](https://github.com/shane-Coder/nyotanow) · [Live](https://nyotanow.vercel.app) |
+| **PulseCheck** | Dead-man's-switch monitoring for cron jobs and background tasks — your job pings a URL when it finishes; if the ping doesn't arrive inside its window, you get an email. Watches for the *absence* of a signal, which Prometheus/UptimeRobot don't cover. Covered by 41 tests and CSRF-protected forms, with pytest running on every push. | FastAPI · Postgres · Celery · Redis · Docker · Fly.io | [Code](https://github.com/shane-Coder/PulseCheck) · [Live](https://pulsecheck-shivam.fly.dev) |
 | **Log Management Microservice** | Production-style log ingestion and analytics service with event-driven processing, alerting, and search — the ELK/Datadog problem, built from the primitives. | Django · Kafka · MongoDB · Docker | [Code](https://github.com/shane-Coder/log-management-microservice) |
 | **Azure Databricks Delta Lake Pipeline** | Micro-batch log-analytics pipeline on Azure-native services: ingest to Data Lake, transform in PySpark on Databricks, land in Delta for ACID + time travel. | Azure · Databricks · PySpark · Delta Lake | [Code](https://github.com/shane-Coder/azure-databricks-delta-lake-pipeline) |
 | **Event-Driven Notification System** | Multiple producer services emit events to Kafka; a consumer fans them out into user notifications asynchronously. | Django · Kafka · MongoDB · Docker | [Code](https://github.com/shane-Coder/event-driven-notification-system) |
@@ -41,6 +44,7 @@ Prometheus-compatible metrics wired in rather than bolted on afterwards.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
@@ -52,6 +56,8 @@ Prometheus-compatible metrics wired in rather than bolted on afterwards.
 ![Celery](https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white)
 ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
 ![REST](https://img.shields.io/badge/REST%20APIs-6DB33F?style=flat-square&logo=swagger&logoColor=white)
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 
 **Data**
 
@@ -86,7 +92,9 @@ Prometheus-compatible metrics wired in rather than bolted on afterwards.
 
 ## 📈 Currently
 
-- Shipping **PulseCheck** toward v3 — Slack/webhook alerts, `start`/`fail` ping variants, public status pages.
+- Growing **[NyotaNow](https://nyotanow.vercel.app)** — just shipped; next up are more occasions, richer designs and a proper analytics loop.
+- Shipping **PulseCheck** toward v3 — Slack/webhook alerts, `start`/`fail` ping variants, public status pages. Test suite and CSRF protection landed in September.
+- Building out **infrastructure-as-code** in the open: Terraform + a real deployed workload, so the infra side of my work isn't only visible behind a company firewall.
 - Deepening **AWS + Kubernetes** fundamentals with a certification target (SAA, then CKA).
 - Writing up what I learn on my [portfolio](https://shivam-portfolio-gold-omega.vercel.app).
 
