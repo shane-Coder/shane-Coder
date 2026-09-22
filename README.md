@@ -30,7 +30,7 @@ invitation app built and launched in a weekend.
 | Project | What it does | Stack | Links |
 | --- | --- | --- | --- |
 | **NyotaNow** | An invitation should be a link, not a JPG. Hosts fill in a few details and get one page that counts down to the event, opens Maps, adds to calendar and collects RSVPs in one tap — Hindi and English both first-class, with proper Devanagari typography. | Next.js 16 · React 19 · TypeScript · Postgres · Drizzle · Tailwind | [Code](https://github.com/shane-Coder/nyotanow) · [Live](https://nyotanow.vercel.app) |
-| **PulseCheck** | Dead-man's-switch monitoring for cron jobs and background tasks — your job pings a URL when it finishes; if the ping doesn't arrive inside its window, you get an email. Watches for the *absence* of a signal, which Prometheus/UptimeRobot don't cover. Covered by 41 tests and CSRF-protected forms, with pytest running on every push. | FastAPI · Postgres · Celery · Redis · Docker · Fly.io | [Code](https://github.com/shane-Coder/PulseCheck) · [Live](https://pulsecheck-shivam.fly.dev) |
+| **PulseCheck** | Dead-man's-switch monitoring for cron jobs and background tasks — your job pings a URL when it finishes; if the ping doesn't arrive inside its window, you get an email. Watches for the *absence* of a signal, which Prometheus/UptimeRobot don't cover. Email plus Slack/Discord/webhook alerts, opt-in public status pages, 41 tests and CSRF-protected forms, with pytest running on every push. | FastAPI · Postgres · Docker · Fly.io · GitHub Actions | [Code](https://github.com/shane-Coder/PulseCheck) · [Live](https://pulsecheck-shivam.fly.dev) |
 | **Log Management Microservice** | Production-style log ingestion and analytics service with event-driven processing, alerting, and search — the ELK/Datadog problem, built from the primitives. | Django · Kafka · MongoDB · Docker | [Code](https://github.com/shane-Coder/log-management-microservice) |
 | **Azure Databricks Delta Lake Pipeline** | Micro-batch log-analytics pipeline on Azure-native services: ingest to Data Lake, transform in PySpark on Databricks, land in Delta for ACID + time travel. | Azure · Databricks · PySpark · Delta Lake | [Code](https://github.com/shane-Coder/azure-databricks-delta-lake-pipeline) |
 | **Event-Driven Notification System** | Multiple producer services emit events to Kafka; a consumer fans them out into user notifications asynchronously. | Django · Kafka · MongoDB · Docker | [Code](https://github.com/shane-Coder/event-driven-notification-system) |
@@ -93,7 +93,7 @@ invitation app built and launched in a weekend.
 ## 📈 Currently
 
 - Growing **[NyotaNow](https://nyotanow.vercel.app)** — just shipped; next up are more occasions, richer designs and a proper analytics loop.
-- Shipping **PulseCheck** toward v3 — Slack/webhook alerts, `start`/`fail` ping variants, public status pages. Test suite and CSRF protection landed in September.
+- **PulseCheck** is through v4 — Slack/Discord/webhook alerts, public status pages, a 41-test suite and CSRF protection all landed in September. Next: `start`/`fail` ping variants, team accounts and an API.
 - Building out **infrastructure-as-code** in the open: Terraform + a real deployed workload, so the infra side of my work isn't only visible behind a company firewall.
 - Deepening **AWS + Kubernetes** fundamentals with a certification target (SAA, then CKA).
 - Writing up what I learn on my [portfolio](https://shivam-portfolio-gold-omega.vercel.app).
